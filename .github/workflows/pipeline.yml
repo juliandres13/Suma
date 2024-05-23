@@ -11,12 +11,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-    - name: Install dependencies
-      run: npm install
-    - name: Run Jasmine Test
-      run : npm test
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+      - name: Run Jasmine Test
+        run: npm test
 
   build:
     runs-on: ubuntu-latest
