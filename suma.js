@@ -3,3 +3,5 @@ const suma = (a, b) => {
 }
 
 module.exports = suma;
+
+// Path: mi-aplicacion-express/resta.js
